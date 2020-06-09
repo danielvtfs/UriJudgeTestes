@@ -1,4 +1,4 @@
-package Exer1002;
+package exer1002;
 
 
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Exer1001;
+package exer1001;
 
 import java.util.Scanner;
  
@@ -9,7 +9,7 @@ public class Main {
 		int fn = scan.nextInt();
 		int sn = scan.nextInt();
 		
-		int answer = fn + sn;
-		System.out.println("X = " + answer);
+		int resposta = fn + sn;
+		System.out.println("X = " + resposta);
 	}
 }

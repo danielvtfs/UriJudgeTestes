@@ -1,4 +1,4 @@
-package exer1004;
+package exer1007;
 
 import java.util.Scanner;
 
@@ -9,11 +9,11 @@ public class Main {
 		
 		int a = scan.nextInt();
 		int b = scan.nextInt();
+		int c = scan.nextInt();
+		int d = scan.nextInt();
 		
-		int prod = a * b;
-		
-		System.out.println("PROD = " + prod);
-
+		int diferenca = a * b - c * d;
+		System.out.println("DIFERENCA = " + diferenca);
 	}
 
 }
