@@ -6,12 +6,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+
 		double pi = 3.14159;
 		double a = scan.nextDouble();
 		double b = scan.nextDouble();
 		double c = scan.nextDouble();
-		
+
 		double triangulo = (a * c) / 2;
 		double circulo = pi * Math.pow(c, 2);
 		double trapezio = (c * (a + b)) / 2;
@@ -23,7 +23,5 @@ public class Main {
 		System.out.printf("TRAPEZIO: %.3f\n", trapezio);
 		System.out.printf("QUADRADO: %.3f\n", quadrado);
 		System.out.printf("RETANGULO: %.3f\n", retangulo);
-
 	}
-
 }

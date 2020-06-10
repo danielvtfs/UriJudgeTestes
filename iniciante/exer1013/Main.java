@@ -7,14 +7,12 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		int a = scan.nextInt();
-		int b = scan.nextInt();
-		int c = scan.nextInt();
+		int x = scan.nextInt();
+		double y = scan.nextDouble();
 		
-		int maiorAB = (a+b+Math.abs(a-b))/2;
-		int maiorBC = (maiorAB+c+Math.abs(maiorAB-c))/2;
+		double totalGasto = x / y;
 		
-		System.out.println(maiorBC + " eh o maior");
+		System.out.printf("%.3f km/l%n", totalGasto);
 	}
 
 }
